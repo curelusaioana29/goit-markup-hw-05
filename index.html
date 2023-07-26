@@ -27,16 +27,16 @@
         <nav class="nav-list-1">
           <ul class="align-nav">
             <li class="nav-list-studio">
-              <a href="index.html" class="current">Studio</a>
-              <hr class="horizontal-rule">
+              <a href="index.html" class="header_links active-link">Studio</a>
+            
             </li>
 
             <li class="nav-list">
-              <a href="portfolio.html" class="hover">Portfolio</a>
+              <a href="portfolio.html" class="header_links">Portfolio</a>
             </li>
 
             <li class="nav-list">
-              <a href="#contact" class="hover">Contacts</a>
+              <a href="#contact" class="header_links">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -175,6 +175,11 @@
           src="images/img(1)squoosh optimized.jpg"
           alt="typing on keyboard"
         />
+        <div class="overlay-text">
+          <div>DESKTOP APPS</div>
+        </div>
+
+
             </div>
       
             <div class="image-whatwedo">
@@ -184,6 +189,11 @@
           src="images/img (2)squoosh optimized.jpg"
           alt="mobile development"
         />
+        <div class="overlay-text">
+          <div>Mobile APPS</div>
+        </div>
+
+
         </div>
         <div class="image-whatwedo">
         <img
@@ -192,6 +202,10 @@
           src="images/img (3)squoosh optimized.jpg "
           alt="choosing color"
         />
+        <div class="overlay-text">
+          <div>DESIGN SOLUTIONS</div>
+        </div>
+
         </div>
         </div>
       </div>
@@ -590,10 +604,19 @@
       </div>
     </footer>
     <!--Modal-->
-    <div class="modal is-open"data-modal>
+    <div class="backdrop is-hidden "data-modal>
 <div class="modal-content">
-<button class="close-btn"data-modal-close>&times;</button>
-Continutul modalului
+<button class="close-btn"data-modal-close>
+  <a class="x-btn" href="">
+
+    <svg class="x-btn-svg">
+      <use href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp"></use>
+    </svg>
+  </a>
+
+
+</button>
+
 
 </div>
 
